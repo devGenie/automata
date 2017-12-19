@@ -10,6 +10,7 @@ sudo apt-get upgrade -y
 
 sudo apt-get install postgresql postgresql-contrib -y
 sudo apt-get install git nginx python3 python3-pip -y
+sudo pip3 install virtualenvwrapper
 
 sudo chown -R $(whoami) /usr/local/lib/
 sudo chown -R $(whoami) /home/$(whoami)
