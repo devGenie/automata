@@ -1,5 +1,6 @@
-source $(which virtualenvwrapper.sh)
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+source $(which virtualenvwrapper.sh)
+
 mkvirtualenv healthchecks-f-society
 workon healthchecks-f-society
 
