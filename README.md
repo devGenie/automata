@@ -1,9 +1,9 @@
 # Setting up Health checks on an Ubuntu server
 
 ## How to deploy the project ##
-1 SSH into your vps
+1 SSH into your vps/ec2 instance
 
-2 cd into /home/
+2 cd into home directory `cd /home`
 
 3 install git `sudo apt-get install git`
 
